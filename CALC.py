@@ -1,0 +1,14 @@
+x,y=int(input("Simple calculator\n Enter first number:")),int(input(" Enter second number:"))
+s=x+y
+d=x-y
+p=x*y
+q=x/y
+m=x%y
+e=x**y
+print("Sum=%d"%s)
+print("Difference=%d"%d)
+print("Product=%d"%p)
+print("Quotient=%.2f"%q)
+print("Modulus=%d"%m)
+print("Exponentiation=%d"%e)
+o=input("Press any key to continue")
